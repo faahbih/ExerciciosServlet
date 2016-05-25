@@ -1,0 +1,16 @@
+11. Escreva uma classe que derive da classe Cookie e que consiste num cookie com a duração de um ano.
+
+
+import javax.servlet.http.Cookie;
+
+public class LongLivedCookie extends Cookie {
+	private static final long serialVersionUID = 1L;
+
+	public static final int SECONDS_PER_YEAR = 60*60*24*365;
+	public LongLivedCookie(String name, String value) {
+		super(name, value);
+		setMaxAge(SECONDS_PER_YEAR);
+	}
+}
+
+
