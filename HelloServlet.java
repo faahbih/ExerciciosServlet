@@ -1,4 +1,4 @@
-1. Escreva uma servlet que gere texto o texto “Hello Word”
+1. Escreva uma servlet que gere texto o texto “Hello World”
 
 
 
