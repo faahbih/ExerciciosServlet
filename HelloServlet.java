@@ -1,4 +1,4 @@
-1. Escreva uma servlet que gere texto o texto “Hello World”
+1. Escreva uma servlet que gere o texto “Hello World”
 
 
 
@@ -22,6 +22,3 @@ public class helloworld extends HttpServlet {
 		out.println("Hello World");
 	}
 }
-
-
-
